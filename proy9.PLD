@@ -1,0 +1,27 @@
+Name     proy9 ;
+PartNo   00 ;
+Date     11/03/2022 ;
+Revision 01 ;
+Designer ian ;
+Company ianemn ;
+Assembly None ;
+Location  ;
+Device g22v10 ;
+
+/* ENTRADAS */
+PIN 2=QA;
+PIN 3=QB;
+PIN 4=QC;
+PIN 5=QD;
+
+/* SALIDAS */
+PIN 23=JB;
+PIN 22=KB;
+PIN 21=JC;
+PIN 20=KC;
+
+JB = !QC & !QD;
+KB = (!QC & !QD) # QA;
+JC = !QD;
+KC = (QA & QB) # !QD;
+
