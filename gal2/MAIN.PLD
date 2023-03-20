@@ -1,0 +1,37 @@
+Name     main ;
+PartNo   00 ;
+Date     22/09/2022 ;
+Revision 01 ;
+Designer Engineer ;
+Company  ian ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* *************** INPUT PINS *********************/
+PIN 2 = M;
+PIN 3 = A;
+PIN 4 = B;
+PIN 5 = C;
+PIN 6 = D;
+PIN 7 = E;
+PIN 8 = F;
+
+/* *************** OUTPUT PINS *********************/
+PIN 22 = y0;
+PIN 18 = y3;
+PIN 17 = y2;
+PIN 23 = x0;
+PIN 20 = x3;
+PIN 19 = x2;
+
+y3 = (M&!B&C&!D&!E&F) # (M&!A&!B&C&!E&F) # (M&!A&B&!E&!F) # (M&!A&B&C&!D&E&F) # (M&!A&B&!C&!E) # (M&!A&!B&E&!F) # (!M&A&C&!D&E&F) # (!M&!B&C&!D&E&F) # (!M&!A&B&!C&E&F) # (!M&!A&B&D&E&F) # (M&A&B&D&E&!F);
+
+y2 = (M&A&B&C&D&!E&F) # (A&!B&C&D&E&F) # (M&!B&!D&E&!F) # (M&B&!D&!E&!F) # (A&B&!C&!D&!E&F) # (A&!B&!C&!D&E&F) # (!A&!B&!C&D&E&F) # (!M&A&B&!C&!E&F) # (A&B&!C&D&E&F) # (M&!A&!B&!C&E);
+
+x2 = (M&A&B&C&D&E&F) # (A&!B&!C&!D&E&F) # (M&!A&B&C&!D&F) # (!A&!B&C&!D&E&F) # (!M&A&B&C&!E&F) # (!M&A&B&C&!D&F) # (!M&A&!B&C&D&E) # (!M&!A&B&!C&D&E) # (M&A&!D&!E&!F) # (M&A&!C&!D&!E);
+
+x3 = (M&A&!B&!D&!F) # (M&A&!B&!D&!E) # (M&!A&D&!E&!F) # (M&!A&!C&D&!E) # (M&!A&!B&D&!E) # (M&!A&!B&!C&D) # (M&!A&B&!D&E) # (!M&D&E&!F) # (M&!A&!B&D&!F);
+
+x0 = x2 # x3;
+y0 = y3 # y2;
