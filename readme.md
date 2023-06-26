@@ -19,6 +19,8 @@ Se puede obtener en:
 
 - [Microchip.com](https://www.microchip.com/en-us/products/fpgas-and-plds/spld-cplds/pld-design-resources)
 
+Número de serie: ***60008009***
+
 ### MaxLoader
 
 Para generar archivo hexadecimales (***hex***) y binarios (***bin***), también para poder
