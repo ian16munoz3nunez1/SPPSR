@@ -47,7 +47,7 @@ Se puede obtener en:
 
 - [labcenter.com](https://www.labcenter.com/)
 
-## Proyecto 1: Circuito lógico combinacional
+## [Proyecto 1: Circuito lógico combinacional](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy1)
 
 <div style='text-align: center'>
     <img width=80% src='.src/proy1.jpg'>
@@ -60,7 +60,7 @@ El objetivo del proyecto es diseñar un circuito combinacional para la función 
 donde: ***F(A, B, C, D, E) = 1*** cuando ***ABD*** entre ***CE=Número impar***. Además,
 cuando el resultado sea indeterminado o tenga fracción será igual a 0.
 
-## Proyecto 2: Generador de bits de paridad
+## [Proyecto 2: Generador de bits de paridad](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy2)
 
 <div style='text-align: center'>
     <img width=80% src='.src/proy2.jpg'>
@@ -73,12 +73,12 @@ segmentos se tiene un generador de paridad impar. Para el generador impar, al no
 las compuertas ***xnor*** se eligió usar compuertas ***xor*** y agregar una compuerta
 ***not*** a la salida del generador, así se obtuvo el generador impar.
 
-## Proyecto 3: Mensaje en display con compuertas lógicas
+## [Proyecto 3: Mensaje en display con compuertas lógicas](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy3)
 
 En este proyecto solo se hizo una simulación en ***Proteus*** para mostrar un mensaje en
 un display de 7 segmentos usando solo compuertas lógicas.
 
-## Proyecto 4: Mensaje en display con *GAL22V10D*
+## [Proyecto 4: Mensaje en display con *GAL22V10D*](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy4)
 
 <div style='text-align: center'>
     <img width=80% src='.src/proy4.jpg'>
@@ -106,7 +106,7 @@ En este proyecto se hizo lo mismo que en la actividad anterior, pero esta vez us
 |   | 1 | 1 | 1 | 0 | x | x | x | x | x | x | x |
 |   | 1 | 1 | 1 | 1 | x | x | x | x | x | x | x |
 
-## Proyecto 5: Divisor-Sumador
+## [Proyecto 5: Divisor-Sumador](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy5)
 
 <div style='text-align: center'>
     <img width=80% src='.src/proy5.jpg'>
@@ -116,7 +116,7 @@ Para este proyecto se hizo un Divisor-Sumador con el que se hacen las ecuaciones
 desde dos ***GAL22V10D***, después de tener el resultado en binario, este se convierte de
 ***BCD*** a 7 segmentos con un decodificador ***74LS48***.
 
-## Proyecto 6: Uso de memoria *EEPROM*
+## [Proyecto 6: Uso de memoria *EEPROM*](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy6)
 
 <div style='text-align: center'>
     <img width=80% src='.src/proy6.jpg'>
@@ -131,7 +131,7 @@ son:
 - Nombre (página 900).
 - Carrera  (página c00).
 
-## Proyecto 7: Máquina de estados con *Flip-Flop 4027*
+## [Proyecto 7: Máquina de estados con *Flip-Flop 4027*](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy7)
 
 <div style='text-align: center'>
     <img width=80% src='.src/proy7_2.jpg'>
@@ -215,7 +215,7 @@ Para esto y los siguientes proyectos, se hizo un reloj usando el circuito integr
 | 1 | 0 | 0 | 1 | X | 1 | 1 | 0 |
 | 1 | 1 | X | 0 | X | 0 | 0 | 1 |
 
-## Proyecto 8: Contador asíncrono
+## [Proyecto 8: Contador asíncrono](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy8)
 
 <div style='text-align: center'>
     <img width=80% src='.src/proy8.jpg'>
@@ -233,7 +233,7 @@ las funciones lógicas y como entrada tiene una señal de reloj y una entrada qu
 Todos estos valores pasan por dos decodificadores ***74LS48*** para mostrarlos en un
 display.
 
-## Proyecto 9: Contador asíncrono del 0 al 9
+## [Proyecto 9: Contador asíncrono del 0 al 9](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy9)
 
 <div style='text-align: center'>
     <img width=80% src='.src/proy9.jpg'>
@@ -256,7 +256,7 @@ vez no se usa el código ***BCD (8, 4, 2, 1)***, si no el ***BCD (8, 4, -2, -1)*
 | 8 | 1 | 0 | 0 | 0 |
 | 9 | 1 | 1 | 1 | 1 |
 
-## Proyecto 10: Contadores en cascada
+## [Proyecto 10: Contadores en cascada](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy10)
 
 <div style='text-align: center'>
     <img width=80% src='.src/proy10.jpg'>
@@ -265,7 +265,7 @@ vez no se usa el código ***BCD (8, 4, 2, 1)***, si no el ***BCD (8, 4, -2, -1)*
 Para este proyecto se usaron dos contadores ***4029***, una compuerta ***and** y dos
 decodificadores ***74LS48*** para mostrar los valores en 2 displays de 7 segmentos.
 
-## Proyecto 11: Animación en matriz led
+## [Proyecto 11: Animación en matriz led](https://github.com/ian16munoz3nunez1/sistemasReconfigurables/tree/proy11)
 
 <div style='text-align: center'>
     <img width=80% src='.src/proy11.jpg'>
